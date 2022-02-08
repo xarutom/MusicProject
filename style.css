@@ -1,0 +1,237 @@
+/*===RESET===*/
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+img {
+ width: 100%;
+ height: auto;
+}
+
+a {
+ text-decoration: none;
+}
+
+/*===Background==*/
+
+body {
+ background-color: hsl(225, 100%, 94%);
+ display: inline-flex;
+}
+
+img.background {
+ position: absolute;
+ height: 50%;
+ width: 100%;
+ margin-top: 0%;
+ display: flex;
+}
+
+img.image {
+ position: absolute;
+ border-top-left-radius: 10%;
+ border-top-right-radius: 10%;
+ top: 0px;
+}
+section.navigation {
+ background-color: white;
+ position: relative;
+ width: 21rem;
+ border-radius: 5%;
+ text-align: center;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 100px;
+ left: 1.5rem;
+ padding-bottom: 2rem;
+ box-shadow: 10px 5px 5px rgb(131, 126, 126);
+}
+div.text {
+ margin-top: 55%;
+}
+
+nav {
+ margin: 0 auto 0 auto;
+}
+
+h1 {
+ color: hsl(223, 47%, 23%);
+ font-weight: 700;
+ font-family: 'Red Hat Display', sans-serif;
+}
+
+p {
+ font-size: 1rem;
+ margin: 10px 10px 10px 10px;
+ font-family: 'Red Hat Display', sans-serif;
+ font-weight: 400;
+}
+p.abstract {
+ color: hsl(224, 23%, 55%);
+}
+
+div.Plan {
+ border-radius: 10%;
+ padding: 0.75rem 1rem;
+ display: inline-flex;
+ background-color: hsl(225, 100%, 98%);
+}
+div.Plan:hover {
+ background-color: hsl(238, 100%, 98%);
+ transition: 0.2s;
+ display: inline-flex;
+}
+p.text1 {
+ font-family: 'Red Hat Display', sans-serif;
+}
+p.text2 {
+ position: relative;
+ right: 6.7rem;
+ margin-top: 2rem;
+ font-family: 'Red Hat Display', sans-serif;
+}
+
+div img.icon {
+ width: 2.5rem;
+ height: 2.5rem;
+ align-items: center;
+ margin-top: 0.57rem;
+}
+
+div a.button {
+ margin-top: 1.3rem;
+ font-family: 'Red Hat Display', sans-serif;
+ font-size: 14px;
+ font-weight: 700;
+ color: hsl(259, 80%, 66%);
+}
+
+p.Proceed {
+ display: inline-flex;
+ padding: 0.75rem 4rem;
+ background-color: hsl(259, 80%, 66%);
+ border-radius: 10px;
+ color: white;
+ font-weight: 600;
+ font-family: 'Red Hat Display', sans-serif;
+}
+
+p.Proceed:hover {
+ background-color: hsl(259, 66%, 53%);
+ transition: 0.2s;
+}
+
+p.Cancel {
+ color: hsl(259, 90%, 40%);
+ font-weight: 700;
+ font-family: 'Red Hat Display', sans-serif;
+}
+p.Cancel:hover {
+ transform: 0.3s;
+ color: hsl(259, 58%, 52%);
+}
+
+@media (min-width: 412px) {
+ section.navigation {
+  background-color: white;
+  position: relative;
+  width: 21rem;
+  border-radius: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  left: 2.7rem;
+  padding-bottom: 2rem;
+  box-shadow: 10px 5px 5px rgb(131, 126, 126);
+ }
+}
+
+@media (min-width: 360px) {
+ section.navigation {
+  background-color: white;
+  position: relative;
+  width: 21rem;
+  border-radius: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  left: 0.75rem;
+  padding-bottom: 2rem;
+  box-shadow: 10px 5px 5px rgb(131, 126, 126);
+ }
+}
+
+@media (min-width: 768px) {
+ section.navigation {
+  background-color: white;
+  position: relative;
+  width: 21rem;
+  border-radius: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  left: 70%;
+  padding-bottom: 2rem;
+  box-shadow: 10px 5px 5px rgb(131, 126, 126);
+ }
+}
+
+@media (min-width: 900px) {
+ section.navigation {
+  background-color: white;
+  position: relative;
+  width: 21rem;
+  border-radius: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  left: 90%;
+  padding-bottom: 2rem;
+  box-shadow: 10px 5px 5px rgb(131, 126, 126);
+ }
+}
+
+@media (min-width: 1000px) {
+ section.navigation {
+  background-color: white;
+  position: relative;
+  width: 21rem;
+  border-radius: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  left: 23rem;
+  padding-bottom: 2rem;
+  box-shadow: 10px 5px 5px rgb(131, 126, 126);
+ }
+}
+
+@media (min-width: 1280px) {
+ section.navigation {
+  background-color: white;
+  position: relative;
+  width: 21rem;
+  border-radius: 5%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  left: 29rem;
+  padding-bottom: 2rem;
+  box-shadow: 10px 5px 5px rgb(131, 126, 126);
+ }
+}
